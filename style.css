@@ -10,6 +10,14 @@ h1 {
 }
 h2 {
     font-weight: bold;
+    font-size: 30px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
 }
 section {
     display: flex;
@@ -22,10 +30,11 @@ section {
     width: 100%;
 }
 .link-button {
+    box-shadow: 10px 10px 60px gray;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     color: white;
 }
@@ -36,9 +45,39 @@ section {
 .dream-big {
     padding-top: 100px;
 }
-.experiences{
-display: block;
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: block;
+    
 }
-.flex-display{
-  display: flex;
+.flex-display {
+    display: flex;
+}
+.experiences-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+}
+#web-dev-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(202, 8, 228), rgb(245, 13, 13));
+    border-image-slice: 1;
+}
+#baby-web-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(179, 48, 92));
+    border-image-slice: 3;
+}
+#dream-big-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer p {
+  text-align: center;
 }
